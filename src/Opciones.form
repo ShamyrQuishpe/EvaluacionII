@@ -8,16 +8,6 @@
     <properties/>
     <border type="none"/>
     <children>
-      <component id="9bc71" class="javax.swing.JButton" binding="verSaldoButton" default-binding="true">
-        <constraints>
-          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="156" height="30"/>
-          </grid>
-        </constraints>
-        <properties>
-          <text value="                Ver saldo                "/>
-        </properties>
-      </component>
       <vspacer id="a438d">
         <constraints>
           <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
@@ -25,36 +15,6 @@
           </grid>
         </constraints>
       </vspacer>
-      <component id="a7c9d" class="javax.swing.JButton" binding="retiroButton" default-binding="true">
-        <constraints>
-          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="156" height="30"/>
-          </grid>
-        </constraints>
-        <properties>
-          <text value="Retiro"/>
-        </properties>
-      </component>
-      <component id="2d541" class="javax.swing.JButton" binding="depositoButton" default-binding="true">
-        <constraints>
-          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="156" height="30"/>
-          </grid>
-        </constraints>
-        <properties>
-          <text value="Deposito"/>
-        </properties>
-      </component>
-      <component id="c9e9b" class="javax.swing.JButton" binding="salirButton" default-binding="true">
-        <constraints>
-          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="156" height="30"/>
-          </grid>
-        </constraints>
-        <properties>
-          <text value="Salir"/>
-        </properties>
-      </component>
       <vspacer id="771c0">
         <constraints>
           <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
@@ -62,14 +22,46 @@
           </grid>
         </constraints>
       </vspacer>
+      <component id="2ad12" class="javax.swing.JRadioButton" binding="verSaldoRadioButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Ver Saldo"/>
+        </properties>
+      </component>
+      <component id="cc1c0" class="javax.swing.JRadioButton" binding="retiroRadioButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Retiro"/>
+        </properties>
+      </component>
+      <component id="e8e04" class="javax.swing.JRadioButton" binding="depositoRadioButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Deposito"/>
+        </properties>
+      </component>
+      <component id="b635b" class="javax.swing.JRadioButton" binding="salirRadioButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Salir"/>
+        </properties>
+      </component>
       <hspacer id="df253">
         <constraints>
-          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
       </hspacer>
       <hspacer id="c82f8">
         <constraints>
-          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="103" height="11"/>
           </grid>
         </constraints>

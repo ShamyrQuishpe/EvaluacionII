@@ -4,16 +4,16 @@ import java.awt.event.ActionListener;
 
 public class Opciones extends JFrame {
     private JPanel opcionpane;
-    private JButton verSaldoButton;
-    private JButton retiroButton;
-    private JButton depositoButton;
-    private JButton salirButton;
+    private JRadioButton verSaldoRadioButton;
+    private JRadioButton retiroRadioButton;
+    private JRadioButton depositoRadioButton;
+    private JRadioButton salirRadioButton;
 
     public Opciones(){
 
         super("OPCIONES");
         setContentPane(opcionpane);
-        verSaldoButton.addActionListener(new ActionListener() {
+        verSaldoRadioButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 Saldo ventana_saldo = new Saldo();
@@ -21,8 +21,7 @@ public class Opciones extends JFrame {
                 ventana_saldo.abrir_Saldo();
             }
         });
-
-        retiroButton.addActionListener(new ActionListener() {
+        retiroRadioButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 Retiro ventana_retiro = new Retiro();
@@ -31,7 +30,7 @@ public class Opciones extends JFrame {
             }
         });
 
-        depositoButton.addActionListener(new ActionListener() {
+        depositoRadioButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 Deposito ventana_deposito = new Deposito();
@@ -39,9 +38,7 @@ public class Opciones extends JFrame {
                 ventana_deposito.abrir_Deposito();
             }
         });
-
-
-        salirButton.addActionListener(new ActionListener() {
+        salirRadioButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 JOptionPane.showMessageDialog(null, "Gracias por usar el sistema :D");
