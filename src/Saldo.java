@@ -35,7 +35,12 @@ public class Saldo extends JFrame{
     }
 
     public static void retiro_saldo(Double valorRertiro){
-        saldoActual -= valorRertiro;
+        if(valorRertiro>saldoActual) {
+            JOptionPane.showMessageDialog(null, "Saldo insuficiente");
+        }else{
+            saldoActual -= valorRertiro;
+            JOptionPane.showMessageDialog(null, "Se a realizado el retiro con exito");
+        }
     }
 
 }

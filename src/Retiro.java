@@ -125,7 +125,7 @@ public class Retiro extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 double valor = Double.parseDouble(val_retiro);
                 Saldo.retiro_saldo(valor);
-                JOptionPane.showMessageDialog(null, "Se a realizado el retiro con exito");
+
             }
         });
     }
